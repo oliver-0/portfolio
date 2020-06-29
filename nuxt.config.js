@@ -29,6 +29,7 @@ export default {
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#fe4a49' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fira+Sans&family=Rubik:ital,wght@0,400;1,400&family=Titillium+Web:wght@600&display=swap' },
     ]
   },
   /*

@@ -1,5 +1,6 @@
 <template>
   <div id="layout-main">
+    <top id="component-top"/>
     <Nuxt id="component-Nuxt" />
   </div>
 </template>
@@ -14,6 +15,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+#component-top {
+  flex: 0 0 auto;
 }
 #component-Nuxt {
   flex: 1 0 auto;
