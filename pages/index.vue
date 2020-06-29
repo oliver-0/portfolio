@@ -12,16 +12,16 @@
 export default {}
 </script>
 
-<style>
+<style lang="scss" scoped>
 .container {
   margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: rgb(51, 51, 51);
+  width: 100%;
 }
-
 .title {
   font-family:
     'Quicksand',
@@ -39,7 +39,6 @@ export default {}
   color: #35495e;
   letter-spacing: 1px;
 }
-
 .subtitle {
   font-weight: 300;
   font-size: 42px;
@@ -47,8 +46,15 @@ export default {}
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-
 .links {
   padding-top: 15px;
+}
+.appear {
+  animation: 1s appear;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
 }
 </style>
